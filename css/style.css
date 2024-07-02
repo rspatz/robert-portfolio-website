@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Arial';
+}
+
+/* Colors */
+:root {
+  --red: #ec502f;
+  --ligntred: #e0c4c4;
+  --black: #000;
+  --white: #fff;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Manrope-Light';
+  src: url(../fonts/ttf/Manrope-Light.ttf);
+}
+
+h1 {
+  color: var(--white);
+}
+
+h2 {
+  /* color: var(--red); */
+}
+
+h3 {
+  /* color: var(--red); */
+}
+
+h4 {
+  /* color: var(--red); */
+}
+
+p {
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: upperCase;
+}
+
+/* Home Page Navigation: Desktop */
+.homepage-navigation {
+  background-color: var(--black);
+  padding: 1rem 1rem;
+  height: 4rem;
+}
+
+.homepage-navigation ul {
+  display: flex;
+  align-items: center;
+}
+
+.homepage-navigation a {
+  margin-right: 2rem;
+  color: var(--white);
+}
+
+.links-1,
+.links-2 {
+  display: flex;
+}
+
+.links-1 {
+  margin: 0 0 0 5rem;
+}
+
+.links-2 {
+  margin: 0 0 0 27rem;
+}
+
+.name {
+  color: var(--red);
+  margin-left: 25rem;
+  text-transform: upperCase;
+  border: solid 1px;
+  padding: 1rem;
+}
+
+/* Home Page Header */
+.homepage-header {
+  height: 40rem;
+  background-color: var(--black);
+  padding-top: 4rem;
+}
+
+.homepage-header p {
+  color: var(--white);
+  font-size: 2rem;
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+}
