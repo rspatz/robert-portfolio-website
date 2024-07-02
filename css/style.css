@@ -72,7 +72,7 @@ a {
 }
 
 .links-1 {
-  margin: 0 0 0 5rem;
+  margin: 0 0 0 3rem;
 }
 
 .links-2 {
@@ -81,7 +81,7 @@ a {
 
 .name {
   color: var(--red);
-  margin-left: 25rem;
+  margin-left: 23rem;
   text-transform: upperCase;
   border: solid 1px;
   padding: 1rem;
