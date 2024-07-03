@@ -96,7 +96,7 @@ a {
 
 /* Home Page Header */
 .homepage-header {
-  height: 40rem;
+  height: 30rem;
   background-color: var(--black);
   padding-top: 4rem;
 }
@@ -111,6 +111,37 @@ a {
 
 .email {
   width: 20%;
-  margin: 3rem auto;
+  margin: 5rem auto;
+}
+
+.email h3 {
+  font-size: 1.5rem;
   color: var(--red);
+  transition: 0.2s ease-in-out;
+}
+
+.email h3:hover {
+  opacity: 75%;
+}
+
+/* Skills Section */
+.skills h2 {
+  font-size: 2rem;
+  width: 20%;
+  margin: 4rem auto;
+}
+
+.skill-wrapper {
+  display: flex;
+  width: 75%;
+  margin: 1rem auto;
+  justify-content: space-around;
+}
+
+.skill {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 0.5rem 2rem;
 }
