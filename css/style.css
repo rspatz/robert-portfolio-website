@@ -128,6 +128,7 @@ a {
 /* Skills Section */
 .skills h2 {
   font-size: 2rem;
+  text-align: center;
   width: 20%;
   margin: 4rem auto;
 }
