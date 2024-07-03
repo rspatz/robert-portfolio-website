@@ -89,6 +89,7 @@ a {
 }
 
 .name {
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--red);
   margin-left: 23rem;
@@ -116,7 +117,7 @@ a {
 }
 
 .email h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
   color: var(--red);
   transition: 0.2s ease-in-out;
