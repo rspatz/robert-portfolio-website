@@ -90,10 +90,12 @@ a {
 
 .name {
   font-size: 1.5rem;
+  width: 25%;
   font-weight: 700;
   color: var(--red);
   margin-left: 23rem;
   text-transform: upperCase;
+  text-align: center;
 }
 
 /* Home Page Header */
