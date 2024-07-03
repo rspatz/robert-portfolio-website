@@ -88,7 +88,7 @@ a {
   margin: 0 0 0 24rem;
 }
 
-.name {
+.greeting {
   font-size: 1.5rem;
   width: 25%;
   font-weight: 700;
@@ -96,6 +96,11 @@ a {
   margin-left: 23rem;
   text-transform: upperCase;
   text-align: center;
+}
+
+span {
+  color: var(--red);
+  font-weight: 700;
 }
 
 /* Home Page Header */
@@ -179,6 +184,7 @@ a {
   background-color: var(--red);
   border-radius: 0.5rem;
   transition: 0.2s ease-in-out;
+  text-align: center;
 }
 
 .card-1:hover,
