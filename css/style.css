@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  /* color: var(--red); */
+  font-size: 2rem;
 }
 
 h3 {
@@ -129,7 +129,6 @@ a {
 
 /* Skills Section */
 .skills h2 {
-  font-size: 2rem;
   text-align: center;
   width: 20%;
   margin: 4rem auto;
@@ -148,4 +147,39 @@ a {
   color: var(--white);
   background-color: var(--black);
   padding: 0.5rem 2rem;
+}
+
+/* Portfolio Section */
+.portfolio {
+  width: 82%;
+  margin: 2rem auto;
+}
+
+.portfolio h2 {
+  width: 7%;
+  margin: 5rem auto;
+  margin-bottom: 2rem;
+}
+
+.projects-list-1,
+.projects-list-2 {
+  display: flex;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  width: 25%;
+  height: 3rem;
+  margin: 5rem;
+  padding: 5rem;
+  background-color: var(--red);
+  border-radius: 0.5rem;
+  transition: 0.2s ease-in-out;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  opacity: 75%;
 }
