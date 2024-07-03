@@ -68,6 +68,11 @@ a {
 .homepage-navigation a {
   margin-right: 2rem;
   color: var(--white);
+  transition: 0.2s ease-in-out;
+}
+
+.homepage-navigation a:hover {
+  opacity: 75%;
 }
 
 .links-1,
@@ -102,4 +107,10 @@ a {
   width: 55%;
   margin: 0 auto;
   text-align: center;
+}
+
+.email {
+  width: 20%;
+  margin: 3rem auto;
+  color: var(--red);
 }
