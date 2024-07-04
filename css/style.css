@@ -113,7 +113,7 @@ span {
 .homepage-header p {
   color: var(--white);
   font-size: 2rem;
-  width: 55%;
+  width: 52%;
   margin: 0 auto;
   text-align: center;
 }
@@ -173,7 +173,7 @@ span {
 
 /* Portfolio Section */
 .portfolio {
-  width: 82%;
+  width: 88%;
   margin: 2rem auto;
 }
 
@@ -197,10 +197,9 @@ span {
 .card-4,
 .card-5,
 .card-6 {
-  width: 25%;
-  height: 3rem;
+  height: 4rem;
   margin: 5rem;
-  padding: 5rem;
+  padding: 6rem 8rem;
   border-radius: 0.5rem;
   transition: 0.2s ease-in-out;
   text-align: center;
@@ -216,6 +215,20 @@ span {
 }
 
 .card-1 {
+  filter: brightness(50%);
+  background: url('../assets/scoot-website.png') no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+}
+
+.card-2 {
+  filter: brightness(50%);
+  background: url('../assets/scoot-website.png') no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+}
+
+.card-3 {
   filter: brightness(50%);
   background: url('../assets/scoot-website.png') no-repeat 0 0;
   background-position: top;
