@@ -137,8 +137,10 @@ span {
 /* Skills Section */
 .skills h2 {
   text-align: center;
-  width: 20%;
+  width: 12%;
   margin: 4rem auto;
+  padding: 1rem;
+  border-bottom: 2px solid var(--red);
 }
 
 .skill-wrapper {
@@ -163,10 +165,12 @@ span {
 }
 
 .portfolio h2 {
-  width: 75%;
+  width: 15%;
   margin: 5rem auto;
   margin-bottom: 2rem;
+  padding: 1rem;
   text-align: center;
+  border-bottom: 2px solid var(--red);
 }
 
 .projects-list-1,
@@ -184,7 +188,6 @@ span {
   height: 3rem;
   margin: 5rem;
   padding: 5rem;
-  background-color: var(--red);
   border-radius: 0.5rem;
   transition: 0.2s ease-in-out;
   text-align: center;
@@ -200,7 +203,33 @@ span {
 }
 
 .card-1 {
+  filter: brightness(50%);
   background: url('../assets/scoot-website.png') no-repeat 0 0;
   background-position: top;
   background-size: cover;
 }
+
+/* Footer */
+.footer {
+  height: 5rem;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.footer-navigation-wrapper {
+  display: flex;
+}
+
+.footer-navigation ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer-navigation a {
+  margin-right: 2rem;
+  color: var(--white);
+  transition: 0.2s ease-in-out;
+}
+
+.footer-navigation a:hover {
+  opacity: 75%;
