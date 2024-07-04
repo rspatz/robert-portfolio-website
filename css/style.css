@@ -118,6 +118,19 @@ span {
   text-align: center;
 }
 
+.portfolio-section-link {
+  width: 20%;
+  margin: 5rem auto;
+  cursor: pointer;
+}
+
+.portfolio-section-link h3 {
+  font-size: 1.25rem;
+  text-align: center;
+  color: var(--red);
+  transition: 0.2s ease-in-out;
+}
+
 .email {
   width: 20%;
   margin: 5rem auto;
