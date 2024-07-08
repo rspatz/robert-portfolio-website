@@ -118,17 +118,17 @@ span {
   text-align: center;
 }
 
-.portfolio-section-link {
+.portfolio-section {
   width: 20%;
   margin: 5rem auto;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
-.portfolio-section-link h3 {
+.portfolio-section h3 {
   font-size: 1.25rem;
   text-align: center;
   color: var(--red);
-  transition: 0.2s ease-in-out;
+  /* transition: 0.2s ease-in-out; */
 }
 
 .email {
@@ -173,17 +173,22 @@ span {
 
 /* Portfolio Section */
 .portfolio {
+  height: 15rem;
   width: 88%;
   margin: 2rem auto;
+  margin-top: 12rem;
+  background: var(--red);
+  border-radius: 10px;
 }
 
 .portfolio h2 {
   width: 15%;
+  color: var(--white);
   margin: 5rem auto;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   padding: 1rem;
+  padding-top: 3rem;
   text-align: center;
-  border-bottom: 2px solid var(--red);
 }
 
 .projects-list-1,
@@ -198,7 +203,7 @@ span {
 .card-5,
 .card-6 {
   height: 4rem;
-  margin: 5rem;
+  margin: 5rem 5rem 12rem 5rem;
   padding: 6rem 8rem;
   border-radius: 0.5rem;
   transition: 0.2s ease-in-out;
@@ -237,9 +242,10 @@ span {
 
 /* Footer */
 .footer {
-  height: 5rem;
+  height: 15rem;
   color: var(--white);
   background-color: var(--black);
+  margin-top: 25rem;
 }
 
 .footer-navigation-wrapper {
